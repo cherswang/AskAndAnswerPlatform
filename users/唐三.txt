@@ -1,0 +1,1 @@
+{"username":"唐三","password":"123456","isMale":"true","email":"1179050874@qq.com","course":"HTML5","ip":"::ffff:127.0.0.1","time":"2023-02-08T15:44:33.305Z"}
