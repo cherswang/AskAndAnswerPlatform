@@ -186,7 +186,7 @@ app.post('/answer', (req, res)=>{
         send('signin error', '请重新登录');
         return;
     }
-    console.log(req.body);
+    console.log("回答的内容：",req.body);
     
     var fileName = `questions/${req.body.question}.txt`;
     
@@ -216,4 +216,4 @@ app.post('/answer', (req, res)=>{
 })
 
 // 监听
-app.listen(3000, ()=>{console.log('server is running...')});
+app.listen(3000, ()=>{console.log('server is running on port 3000...')});
